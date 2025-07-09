@@ -72,6 +72,7 @@ export default function ChatInput({ generateResponse, setScroll, chat, clearChat
                         Ask
                     </Button>
                     <Button
+                        type="button"
                         variant='outlined'
                         onClick={handleSave}
                         disabled={!chat.length > 0}
